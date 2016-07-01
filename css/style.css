@@ -1,0 +1,183 @@
+﻿/* ==========================================================================
+	Global Styles
+==========================================================================*/
+* {box-sizing: border-box;}
+body {
+	font-family: 'Philosopher', Arial, sans-serif;
+	}
+.clearfix:after {
+	content:'';
+	display: block;
+	clear: both;
+	}
+/* ==========================================================================
+ Typography
+========================================================================== */
+h1{
+	color: black;
+	font-size: 35px;
+}
+h2{
+	margin-bottom: 15px;
+	color: black;
+	font-size: 25px;
+	text-shadow:1px 1px 1px #3d3c3d;
+}
+/* ==========================================================================
+ Top
+========================================================================== */
+.container {
+	width: 100%;
+	background: url(../img/homework4.jpg);
+	}
+.content_wraper {
+	width: 74%;
+	margin: 0 auto;
+	background: white;
+	-webkit-box-shadow: 0px 1px 5px 3px rgba(85, 85, 85,1);
+		-moz-box-shadow: 0px 1px 5px 3px rgba(85, 85, 85,1);
+			box-shadow: 0px 1px 5px 3px rgba(85, 85, 85,1);
+	}
+.top {
+	
+	padding-top: 10px;
+	}
+.lolotype {
+	height: 170px;
+	width: 33%;
+	float: left;
+	}
+.lolotype img {
+	width: 100%;
+	height: 100%;
+ }
+.contacts {
+	width: 14%;
+	float: right;
+	color: RGB(116, 186, 203);
+	font-size: 10px;
+	line-height: 15px;
+	}
+.country_box {
+	width: 35%;
+	text-align: center;
+	padding-top: 30px;
+	clear: right;
+	float: right;
+	}
+.country_box img {
+	width: 100%;
+	height: auto;}
+.country {
+	float: right;
+	width: 16.6%;
+	}
+.country  a {
+	font-size: 10px;
+	color: RGB(116, 186, 203);
+	}
+.country  a:hover {
+	color: red;
+	text-decoration: none;
+	}
+.img_box {
+	height: 245px;
+	background: url(../img/banner.jpg);
+	background-size: cover;
+	}
+/* ==========================================================================
+Navigation
+========================================================================== */
+.navigation_box {
+	width: 100%;
+	padding-top: 2px;
+	border-top: 1px solid RGB(116, 186, 203);
+	background: rgb(202, 202, 203);
+	}
+.nav { 
+position: relative;
+	text-align: center;
+	border-bottom: 1px solid black;
+	background: rgb(50, 50, 50);
+	-moz-box-shadow: 1px 3px 5px #424142;
+		-webkit-box-shadow: 1px 3px 5px #424142;
+			box-shadow: 1px 7px 3px #424142;
+	}
+.nav_item{
+	position: relative;
+	display: inline-block;
+	width: 13%;
+	}
+.nav_item a {
+	display: block;
+	line-height: 30px;
+	text-decoration: none;
+	color: white;
+	}
+.nav_submenu {
+    display: none;
+	position: absolute;
+	top: 31px;
+	width: 150px;
+	padding: 5px 0;
+	background: rgb(47, 47, 47);
+	-moz-box-shadow: 1px 7px 5px #000000;
+		-webkit-box-shadow: 1px 7px 5px #000000;
+			box-shadow: 1px 7px 5px #000000;
+	}
+.nav li:hover ul {  
+  display: block;
+	}
+
+/* ==========================================================================
+Content
+========================================================================== */
+.content { 
+	width: 100%;
+
+	background: white;
+	overflow: hidden;
+	}
+.column_left, .column_right {
+	padding: 10px;
+	background: RGB(237, 238, 240);
+	text-align: center;
+	}
+.column_left p, .column_right p {
+	margin-bottom: 20px;
+	line-height: 20px;
+    }
+.column_left {
+	width: 25%;
+	float: left;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+	border-right: 1px solid RGB(199, 202, 207);
+	}
+.column_right {
+	width: 25%;
+	float: right;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+	border-left: 1px solid RGB(199, 202, 207);
+	}
+.column_center {
+	width: 50%;
+	float: left;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+	background: white;
+	}
+/* ==========================================================================
+Footer
+========================================================================== */
+.footer {
+	height: 40px;
+	width: 74%;
+	margin: 0 auto;
+	padding: 10px 0;
+	border-top: 3px solid black;
+	background: RGBA(52, 52, 52, 0);
+	text-align: center;
+	color: white;
+	}
